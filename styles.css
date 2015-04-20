@@ -1,6 +1,66 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
+body {
+	background-image: url('images/hiking-the-sand-dunes.jpg'); 
+	background-position: top left; 
+	background-repeat:	repeat-x;
+	background-color: lightcyan;
+	font-family: serif;
+		}
+
+h1, h2, h3, h4, h6 {
+	font-family: sans-serif;
+}
+
+header.page-header {
+/* 	background: lightpink; */
+	padding-bottom: 150px;
+	padding-top: 60px;
+	margin-left: 200px;
+}
+
+.page-header h1 {
+	margin-bottom: 0px;
+}
+
+.page-header p {
+	margin-top: 0px;
+	font-style: italic;
+}
+
+.page-header small {
+	font-size: medium;
+}
+
+aside.more-info {
+/* 	background: lightskyblue; */
+	float: right;
+}
+
+aside.more-info img {
+	width: 125px;
+	height: auto;
+}
+
+.more-info {
+	margin-top: 775px;
+}
+
+section#content {
+/* 	background: lightpink; */
+}
+
+.poem {
+	list-style-type: none;
+}
+
+.poem li {
+	font-size: large;
+	font-style: italic;
+	line-height: 2;
+}
+
+footer.page-footer {
+/* 	background: lightskyblue; */
 }
